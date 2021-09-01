@@ -39,13 +39,13 @@ header {
 }
 
 header h1 {
-	font-size: 32px;
+	font-size: 70px;
 	color: #c3dae0;
-	padding-bottom: 10px;
+	margin-bottom: 35px;
 }
 
 header p {
-	font-size: 16px;
+	font-size: 24px;
 	color: #c3dae0;
 }
 
@@ -175,4 +175,58 @@ footer{
 
 .columna2{
 	padding-left: 10px;
+}
+
+/*Responsive*/
+@media(max-width: 1000px){
+	main{
+		flex-direction: column-reverse;		
+	}
+	.menu-principal{
+		margin: 15px 0;
+		padding-left: 25px;
+	}
+	.bloque{
+		padding-left: 25px;
+	}
+	nav ul{
+		display: block;
+		text-align: center;
+
+	}
+	nav ul li {		
+		border:none;
+		width:40%;
+		line-height: 40px;
+	}
+	nav li a{
+		font-size: 18px;
+
+	}
+	.menu-principal li{
+		margin-bottom: 10px;
+	}
+	.articles{
+		display: flex;
+		flex-direction: column;
+	}
+	.col {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.columna1{
+		border: none;
+	}
+	.columna2{
+		padding: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	header h1 {
+		font-size: 40px;
+	}
+	header p {
+		display: none;
+	}
 }
