@@ -181,7 +181,8 @@ footer{
 /*Responsive*/
 @media(max-width: 1000px){
 	main{
-		flex-direction: column-reverse;		
+		flex-direction: column-reverse;
+		font-size: 16px;		
 	}
 	.menu-principal{
 		margin: 15px 0;
