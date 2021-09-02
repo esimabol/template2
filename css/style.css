@@ -182,7 +182,6 @@ footer{
 @media(max-width: 1000px){
 	main{
 		flex-direction: column-reverse;
-		font-size: 16px;		
 	}
 	.menu-principal{
 		margin: 15px 0;
@@ -208,9 +207,12 @@ footer{
 	.menu-principal li{
 		margin-bottom: 10px;
 	}
-	.articles{
+	.articles{		
 		display: flex;
 		flex-direction: column;
+	}
+	.articles p{
+		font-size: 16px;
 	}
 	.col {
 		width: 100%;
